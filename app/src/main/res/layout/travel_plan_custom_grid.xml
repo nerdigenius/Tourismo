@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:elevation="24dp"
+    app:cardBackgroundColor="@android:color/white"
+    app:cardElevation="7dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/tranparent_background"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="false"
+            android:cropToPadding="false"
+            android:scaleType="fitXY"
+            android:src="@drawable/inani_resize" />
+
+        <TextView
+            android:id="@+id/txtLocationName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ratingBar4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="Cox's Bazar"
+            android:textColor="@color/text_color"
+            android:textStyle="bold" />
+
+
+        <RatingBar
+            android:id="@+id/ratingBar4"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView8"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:rating="5" />
+
+        <TextView
+            android:id="@+id/txtDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtLocationName"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="A town on the southeast coast of Bangladesh. It’s known for its very long, sandy beachfront, stretching from Sea Beach in the north to Kolatoli Beach in the south. Aggameda Khyang monastery is home to bronze statues and centuries-old Buddhist manuscripts. South of town, the tropical rainforest of Himchari National Park has waterfalls and many birds"
+            android:textAlignment="center"
+            android:textColor="@color/text_color" />
+
+        <Button
+            android:id="@+id/btnSeeMore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/txtDescription"
+            android:layout_marginTop="24dp"
+            android:background="@color/transparent"
+            android:drawableRight="@drawable/right_arrow"
+            android:gravity="center_vertical|fill_vertical"
+            android:paddingRight="5dp"
+            android:text="See More(Undercontruction)"
+            android:textAlignment="textEnd"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

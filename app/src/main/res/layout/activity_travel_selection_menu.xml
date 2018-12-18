@@ -1,0 +1,230 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:grid="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:columnOrderPreserved="false"
+        android:padding="2dp"
+        android:rowOrderPreserved="false">
+
+        <LinearLayout
+            android:id="@+id/trvlTransport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="2"
+            android:layout_gravity="fill_horizontal"
+            android:layout_margin="2dp"
+            android:background="@drawable/solid_background"
+            android:clickable="false"
+            android:elevation="5dp"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imageButton111"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="9"
+                android:background="@color/transparent"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="20dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/bus" />
+
+            <TextView
+                android:id="@+id/textView111"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Transport"
+                android:textAlignment="center"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/trvlPlaces"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:layout_margin="2dp"
+            android:background="@drawable/solid_background"
+            android:clickable="true"
+            android:elevation="5dp"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imageButton112"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="9"
+                android:background="@color/transparent"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="20dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/travel" />
+
+            <TextView
+                android:id="@+id/textView112"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Places To Visit"
+                android:textAlignment="center"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/trvlFood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal|fill"
+            android:layout_margin="2dp"
+            android:layout_rowSpan="2"
+            android:background="@drawable/solid_background"
+            android:clickable="true"
+            android:elevation="5dp"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imageButton113"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="9"
+                android:background="@color/transparent"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="20dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/restaurant" />
+
+            <TextView
+                android:id="@+id/textView113"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Food's"
+                android:textAlignment="center"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/trvlHotel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:background="@drawable/solid_background"
+            android:clickable="true"
+            android:elevation="5dp"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imageButton114"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="9"
+                android:background="@color/transparent"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="20dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/hotel" />
+
+            <TextView
+                android:id="@+id/textView114"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Hotels"
+                android:textAlignment="center"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/trvlActivities"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="2"
+            android:layout_gravity="fill"
+            android:layout_margin="2dp"
+            android:background="@drawable/solid_background"
+            android:clickable="true"
+            android:elevation="5dp"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imageButton115"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="9"
+                android:background="@color/transparent"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="20dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/travel" />
+
+            <TextView
+                android:id="@+id/textView115"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Activities"
+                android:textAlignment="center"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/trvlBudget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="2"
+            android:layout_gravity="fill_horizontal"
+            android:layout_margin="2dp"
+            android:background="@drawable/solid_background"
+            android:clickable="true"
+            android:elevation="5dp"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imageButton116"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="9"
+                android:background="@color/transparent"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="20dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/currency" />
+
+            <TextView
+                android:id="@+id/textView116"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Budget"
+                android:textAlignment="center"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+    </GridLayout>
+
+
+</ScrollView>

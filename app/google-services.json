@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "406942397551",
+    "firebase_url": "https://tourismo-1513245105832.firebaseio.com",
+    "project_id": "tourismo-1513245105832",
+    "storage_bucket": "tourismo-1513245105832.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:406942397551:android:2a1f74d4f88a8257",
+        "android_client_info": {
+          "package_name": "com.example.drazzer.tourismo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "406942397551-4np66tsdaut5rsl76udtcp4pjq5ihei3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.drazzer.tourismo",
+            "certificate_hash": "91ae8a6aec99d988f1c8ee0e940bac88cf57121e"
+          }
+        },
+        {
+          "client_id": "406942397551-vseppvsqdg6ic6ofttb4j07e1fc9o4ih.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3YMz_MgHIGPR39yGkIOFMUrLFWubm0Fs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "406942397551-vseppvsqdg6ic6ofttb4j07e1fc9o4ih.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
